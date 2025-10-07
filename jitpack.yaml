@@ -29,6 +29,3 @@ before_install:
   - export ANDROID_NDK_HOME="$ANDROID_NDK_ROOT"
   - export NDK_HOME="$ANDROID_NDK_ROOT"
 
-install:
-  # Build your AAR(s). Replace :mylib: with your module name.
-  - ./gradlew :mylib:assembleRelease --no-daemon -x test
